@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site 1 HTML</title>
+    <style>
+        body{
+            background-color: rgb(56, 129, 89); /* Isto é um comentário em CSS*/
+            color: azure;
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Isto é um comentário em HTML-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //String
+        var n2 = Number(window.prompt('Digite outro número: ')) //Sting
+        //Converter string para number: Number.parseInt para inteiros e
+        // Number.parseFloat para números "quebrados".
+        // Maneira mais recente é usar apenas Number e deixar o JS converter
+        // sozinho analisando a necessidade do dado.
+
+        var s = n1 + n2
+window.alert(`A soma entre ${n1} e ${n2} é ${s}`) // Converter para String: 
+                                                // String(variavel)
+        // number + number adição
+        // string + string concatenação
+
+        //Formatando String
+        var s = 'Javascript'
+        'Eu estou aprendendo s' //Não faz interpolação
+        'Eu estou aprendendo' + s //Usa concatenação
+        'Eu estou aprendendo ${s}' //Usa template string
+        
+        //Informações extras
+
+        //s.length mostra quantos caracteres a string tem
+        //s.toUpperCase()  transforma a string para letras MAIÚSCULAS
+        //s.toLowerCase()  transforma a string para letras minúsculas
+    </script>
+
+</body>
+</html>
